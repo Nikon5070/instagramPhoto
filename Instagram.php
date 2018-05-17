@@ -21,7 +21,7 @@ class Instagram
     /**
      * @return array
      */
-    function getUrlsImages(): array
+    public function getUrlsImages(): array
     {
         $params = $this->getParams();
 
